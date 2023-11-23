@@ -2,11 +2,6 @@
   "manifest_version": 3,
   "name": "Restore Twitter Headlines",
   "version": "1.0.01",
-  "host_permissions": [
-    "https://*/twitter.com/",
-    "https://*/x.com/"
-  ],
-
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
